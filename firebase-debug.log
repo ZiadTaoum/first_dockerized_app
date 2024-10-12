@@ -1,0 +1,45 @@
+[debug] [2024-10-12T11:02:27.907Z] ----------------------------------------------------------------------
+[debug] [2024-10-12T11:02:27.909Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-10-12T11:02:27.909Z] CLI Version:   13.22.0
+[debug] [2024-10-12T11:02:27.909Z] Platform:      win32
+[debug] [2024-10-12T11:02:27.909Z] Node Version:  v20.16.0
+[debug] [2024-10-12T11:02:27.909Z] Time:          Sat Oct 12 2024 13:02:27 GMT+0200 (GMT+02:00)
+[debug] [2024-10-12T11:02:27.909Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-12T11:02:28.001Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-12T11:02:28.001Z] > authorizing via signed-in user (ziad123taoum@gmail.com)
+[debug] [2024-10-12T11:02:28.102Z] java version "17.0.12" 2024-07-16 LTS
+Java(TM) SE Runtime Environment (build 17.0.12+8-LTS-286)
+
+[debug] [2024-10-12T11:02:28.103Z] Java HotSpot(TM) 64-Bit Server VM (build 17.0.12+8-LTS-286, mixed mode, sharing)
+
+[debug] [2024-10-12T11:02:28.129Z] Parsed Java major version: 17
+[info] i  emulators: Starting emulators: functions, firestore, hosting, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, firestore, hosting, extensions"}}
+[debug] [2024-10-12T11:02:28.131Z] Checked if tokens are valid: true, expires at: 1728734265081
+[debug] [2024-10-12T11:02:28.131Z] Checked if tokens are valid: true, expires at: 1728734265081
+[debug] [2024-10-12T11:02:28.132Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fullstack-project-f6937 [none]
+[debug] [2024-10-12T11:02:28.758Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fullstack-project-f6937 200
+[debug] [2024-10-12T11:02:28.759Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fullstack-project-f6937 {"projectId":"fullstack-project-f6937","projectNumber":"576096011738","displayName":"fullstack-project","name":"projects/fullstack-project-f6937","resources":{"hostingSite":"fullstack-project-f6937"},"state":"ACTIVE","etag":"1_406a07cf-4b99-49ce-8904-fe47048cfa39"}
+[debug] [2024-10-12T11:02:28.769Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-10-12T11:02:28.769Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-10-12T11:02:28.769Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-10-12T11:02:28.769Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-10-12T11:02:28.769Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8082}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5002}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-10-12T11:02:28.774Z] [hub] writing locator at C:\Users\acer\AppData\Local\Temp\hub-fullstack-project-f6937.json
+[debug] [2024-10-12T11:02:28.782Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2024-10-12T11:02:28.785Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-10-12T11:02:28.785Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-10-12T11:02:28.785Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-10-12T11:02:28.785Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8082}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5002}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, database, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, database, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2024-10-12T11:02:28.789Z] defaultcredentials: writing to file C:\Users\acer\AppData\Roaming\firebase\ziad123taoum_gmail_com_application_default_credentials.json
+[debug] [2024-10-12T11:02:28.792Z] Setting GAC to C:\Users\acer\AppData\Roaming\firebase\ziad123taoum_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\acer\\AppData\\Roaming\\firebase\\ziad123taoum_gmail_com_application_default_credentials.json"}}
+[debug] [2024-10-12T11:02:28.793Z] Checked if tokens are valid: true, expires at: 1728734265081
+[debug] [2024-10-12T11:02:28.793Z] Checked if tokens are valid: true, expires at: 1728734265081
+[debug] [2024-10-12T11:02:28.793Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fullstack-project-f6937/adminSdkConfig [none]
+[debug] [2024-10-12T11:02:29.078Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fullstack-project-f6937/adminSdkConfig 200
+[debug] [2024-10-12T11:02:29.079Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fullstack-project-f6937/adminSdkConfig {"projectId":"fullstack-project-f6937","storageBucket":"fullstack-project-f6937.appspot.com"}
+[debug] [2024-10-12T11:02:29.091Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-10-12T11:02:29.091Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2024-10-12T11:02:29.091Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\acer\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.8.jar","--host","127.0.0.1","--port",8082,"--websocket_port",9150,"--project_id","fullstack-project-f6937","--rules","C:\\Users\\acer\\Desktop\\DockerPractice\\fullstack-Practice\\firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false,"port":8082} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\acer\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.8.jar\",\"--host\",\"127.0.0.1\",\"--port\",8082,\"--websocket_port\",9150,\"--project_id\",\"fullstack-project-f6937\",\"--rules\",\"C:\\\\Users\\\\acer\\\\Desktop\\\\DockerPractice\\\\fullstack-Practice\\\\firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false,\"port\":8082}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}

@@ -2,12 +2,15 @@
   "name": "frontend",
   "version": "1.0.0",
   "dependencies": {
+    "firebase": "^10.14.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "dev": "nodemon -L npm start",  
+    "build": "react-scripts build"
   },
   "browserslist": {
     "production": [

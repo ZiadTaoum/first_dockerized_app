@@ -35,7 +35,7 @@ app.get('/api/seed', async (req, res) => {
 });
 
 app.get('/api/message', (req, res) => {
-  res.json({ message: 'Hello from the backend with nodemon' });
+  res.json({ message: 'Hello from the backend with nodemon!!!!!' });
 });
 
 // API route to fetch users from MongoDB
